@@ -57,8 +57,8 @@ Data sourced from the Amadeus API for educational and research purposes.
 ### 1️⃣ Create Virtual Environment
 
 ```bash
-conda create -n myproject python=3.10
-conda activate myproject
+conda create -n myenv python=3.10
+conda activate myenv
 ````
 
 ### 2️⃣ Install Dependencies
