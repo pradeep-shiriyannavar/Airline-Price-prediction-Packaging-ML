@@ -1,5 +1,5 @@
 import os
-from airline_prediction.config import config
+from config import config
 import pandas as pd
 
 def load_dataset():

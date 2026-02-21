@@ -4,7 +4,7 @@ import pandas as pd
 
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
-from airline_prediction.config import config
+from config import config
 
 
 def duration_to_minutes(duration: str) -> int:

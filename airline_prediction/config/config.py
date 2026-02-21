@@ -1,9 +1,9 @@
 import pathlib
-import airline_prediction
+# import airline_prediction
 
-PACKAGE_ROOT = pathlib.Path(airline_prediction.__file__).resolve().parent
+PACKAGE_ROOT = pathlib.Path(__file__).resolve().parent
 
-DATASET_PATH = PACKAGE_ROOT / "dataset" / "new_dub_fra_flights.csv"
+DATASET_PATH = "dataset/new_dub_fra_flights.csv"
 
 TARGET = "price"
 
@@ -32,3 +32,9 @@ ARTIFACTS_PATH = PACKAGE_ROOT / "artifacts"
 ENCODER_PATH = ARTIFACTS_PATH / "encoders"
 SCALER_PATH = ARTIFACTS_PATH / "scaler"
 MODEL_PATH = ARTIFACTS_PATH / "models"
+
+GBR_N_ESTIMATORS = 300
+GBR_LEARNING_RATE = 0.1
+GBR_MAX_DEPTH = 5
+
+MODEL_NAME = "gradient_boosting_regressor.pkl"
