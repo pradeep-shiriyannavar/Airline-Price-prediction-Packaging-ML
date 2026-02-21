@@ -1,4 +1,4 @@
-# ✈️ Airline Price Prediction API (Dockerized – MLOps Ready)
+# ✈️ Airline Price Prediction API 
 
 A production-ready Machine Learning API for predicting airline ticket prices using a trained regression model.
 
