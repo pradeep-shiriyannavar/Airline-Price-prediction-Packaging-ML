@@ -1,4 +1,3 @@
-```markdown
 # ✈️ Airline Price Prediction API (Dockerized – MLOps Ready)
 
 A production-ready Machine Learning API for predicting airline ticket prices using a trained regression model.
@@ -7,7 +6,6 @@ This project demonstrates:
 - ML model packaging
 - FastAPI deployment
 - Docker containerization
-- MLOps-ready structure
 
 ---
 
@@ -113,4 +111,3 @@ http://localhost:8000/docs
 
 ---
 
-Tell me your next move 👌
